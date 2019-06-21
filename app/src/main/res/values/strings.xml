@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Almanor Computer Repair</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Almanor Computer Repair</string>
+    <string name="nav_header_desc">Almanor Computer Repair</string>
+    <string name="txt_welcome">Welcome to Almanor Computer Repair!</string>
+    <string name="txt_brief">We help with a wide range of tasks you may not know how to do or that
+        don\'t seem to be working properly (such as connecting to devices like printers and phones
+        or figuring out why your computer won\'t start up). We work hard to fix the issue as well
+        as (optionally) explain how to fix it in case it ever reoccurs.
+    </string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+
+    <!-- Menu items -->
+    <string name="menuItem_contactUs">Contact us</string>
+    <string name="menuItem_phone">Phone</string>
+    <string name="menuItem_email">Email</string>
+    <string name="menuItem_commonIssues">Troubleshooting</string>
+    <string name="menuItem_wifi">WiFi</string>
+    <string name="menuItem_bluetooth">Bluetooth</string>
+
+    <!-- Main menu items -->
+    <string name="menu_item_open_website">Open Website</string>
+    <string name="menu_item_settings">Settings</string>
+
+    <!-- Price strings -->
+    <string name="txt_pricing">Pricing</string>
+    <string name="txt_pricing_price1">Home Visit: $50.00</string>
+    <string name="txt_pricing_price2">AeroAdmin Session: $40.00</string>
+    <string name="txt_pricing_price3">Computer Setup: $30.00</string>
+    <string name="txt_pricing_price4">Monthly Plan: $30/month</string>
+
+    <!-- Help with Wifi -->
+    <string name="txt_help_wifiTitle1">Connecting to a network</string>
+    <string name="img_wifi_step1_desc">List of WiFi networks</string>
+    <string name="txt_help_wifi_body_step1">First, let\'s make sure there are available WiFi
+        connections nearby to connect to. This could be either a home network, a coffee shop\'s
+        network, or any other that is available to you. On the bottom-right of your screen, there
+        will be a few icons. Somewhere in there, you will find an icon that looks like a dot with 3
+        or 4 waves emitting from it (depending on your version of Windows). If you cannot find it,
+        it is likely with the other hidden icons when you click the button that looks like an arrow
+        pointing up. When you click on it, a menu will appear, showing you all of the wireless
+        networks in range.
+    </string>
+    <string name="img_wifi_step2_desc">Successful internet connection</string>
+    <string name="txt_help_wifi_body_step2">Now that you have a list of networks, click on one that
+        you wish to connect to and hit "Connect". If it needs a password, it will tell you, but if
+        not, you will soon be connected. If you find yourself not having internet, but are still
+        connected, either the internet\'s down or you haven\'t gone through the internet\'s login page
+        yet. Not all networks have these, but usually public networks do (i.e. Coffee shops, Grocery
+        stores, etc). To access this login page, simply go to any website in your browser and follow
+        the instructions on-screen.
+    </string>
+
+    <!-- Help with Bluetooth -->
+    <string name="txt_help_bluetoothTitle1">Pairing a Bluetooth device</string>
+    <string name="img_bluetooth_step1_desc">Search for bluetooth</string>
+    <string name="img_bluetooth_step2_desc">Bluetooth settings screen</string>
+    <string name="img_bluetooth_step3_desc">Step 1</string>
+    <string name="img_bluetooth_step4_desc">Step 2</string>
+    <string name="img_bluetooth_step5_desc">Step 3</string>
+    <string name="img_bluetooth_step6_desc">Step 4</string>
+    <string name="filler_text">filler text</string>
+
+    <!-- Dialog Text -->
+    <string name="dialog_email_title">Email</string>
+    <string name="dialog_email_message">nick@acrep.net</string>
+    <string name="dialog_email_positive">OK</string>
+    <string name="dialog_email_negative">Send Email</string>
+    <string name="dialog_email_neutral">Copy</string>
+
+    <string name="dialog_phone_title">Phone</string>
+    <string name="dialog_phone_message">(530) 200-4045</string>
+    <string name="dialog_phone_positive">OK</string>
+    <string name="dialog_phone_negative">Dial</string>
+    <string name="dialog_phone_neutral">Copy</string>
+</resources>

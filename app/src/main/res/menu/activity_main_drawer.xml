@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="About Us"
+        android:visible="false" />
+    <item
+        android:title="@string/menuItem_contactUs"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_phone"
+                android:icon="@drawable/ic_phone_black_24dp"
+                android:title="@string/menuItem_phone" />
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="@string/menuItem_email" />
+        </menu>
+    </item>
+    <item android:title="@string/menuItem_commonIssues">
+        <menu>
+            <item
+                android:id="@+id/nav_help_wifi"
+                android:icon="@drawable/ic_wifi_black_24dp"
+                android:title="@string/menuItem_wifi" />
+            <item
+                android:id="@+id/nav_help_bluetooth"
+                android:icon="@drawable/ic_bluetooth_black_24dp"
+                android:title="@string/menuItem_bluetooth" />
+        </menu>
+    </item>
+
+</menu>
